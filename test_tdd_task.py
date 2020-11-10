@@ -14,7 +14,7 @@ class Calctest(unittest.TestCase):
 
     # Tests the modulus method in parent
     def test_modulus(self):
-        self.assertEqual(self.calc.modulus(4, 2), 0) # Bool - True
+        self.assertEqual(self.calc.modulus(4, 2), True) # Bool - True
         # Test if 4 % 2 == 0, if True, pass test, if False fail the test
 
     # Tests the non_zero method in parent
