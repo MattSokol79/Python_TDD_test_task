@@ -10,7 +10,7 @@ positive i.e. --> if input -1 => FAIL, if input > 0 => PASS
 ### First create Test file
 - Should have all the test conditions under the 
 class methods
-
+- So create the class which will test the functions
 ```python
 # This is the test file
 
