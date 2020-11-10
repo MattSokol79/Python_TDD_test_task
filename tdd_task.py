@@ -12,7 +12,7 @@ class Modulus_Calc:
 
     # Function that outputs False if any value is < 0, True if it is above 0
     def not_zero(self, value1, value2):
-        if value1 and value2 <= 0:
-            return False
-        else:
+        if value1 and value2 > 0:
             return True
+        else:
+            return False
