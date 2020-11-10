@@ -3,7 +3,7 @@
 # Import all the relevant files and modulues required for testing
 from tdd_task import Modulus_Calc
 import unittest
-import pytest # always pip install pytest beforehand
+import pytest # always pip install pytest before
 
 # Create the class to write tests
 # unittest.TestCase works with unittest framework as a parent class

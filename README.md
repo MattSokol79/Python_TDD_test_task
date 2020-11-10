@@ -61,3 +61,8 @@ class Modulus_Calc:
         else:
             return False
 ```
+
+### To run Tests:
+- In terminal `python -m pytest`
+- For more detail `python -m pytest -v`
+- Another way `python -m unittest -v`
